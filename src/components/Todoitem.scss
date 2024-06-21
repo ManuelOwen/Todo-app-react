@@ -1,0 +1,26 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 570px;
+  
+    height: 30px;
+    margin: auto;
+    background-color: rgb(175, 198, 198);
+    box-shadow: 0 0 5px 0 #ccc;
+    border-radius: 10px;
+    // .todo-item-text {
+    //     font-size: 18px;
+    // }
+  .del{
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    border-radius: 7px;
+    &:hover{
+        background-color: rgb(67, 7, 7);
+        cursor: pointer;
+    }
+  }
+ }

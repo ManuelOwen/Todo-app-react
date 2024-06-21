@@ -1,0 +1,59 @@
+.todo-app{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    .header{
+        display: flex;
+        text-align: center;
+        justify-content: center;.todo-app {
+            &.light {
+              background-color: #ffffff;
+              color: #000000;
+              // Add other light theme styles
+            }
+          
+            &.dark {
+              background-color: #000000;
+              color: #ffffff;
+              // Add other dark theme styles
+            }
+          }
+          
+          .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+          }
+          
+          .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          
+          .theme-icon {
+            cursor: pointer;
+          }
+          
+        gap: 100px;
+        color: rgb(247, 247, 249);
+        height: 150px;
+        width: 700px;
+        border-radius: 15px;
+        margin: auto;
+        background-color: rgb(116, 58, 230);
+        
+        .moon{
+         height: 30px;
+         float: right;
+         margin-right: 140px;
+        
+           
+            
+    
+        }
+    }
+   
+}
